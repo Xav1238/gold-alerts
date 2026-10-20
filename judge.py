@@ -6,6 +6,7 @@ If the chosen AI call fails, the keyword judge is used so you still get alerts.
 import json
 import os
 import re
+import time
 
 import requests
 
@@ -76,28 +77,44 @@ GEMINI_MODELS = [          # tried in order; a 404 just moves on to the next one
 ]
 
 
-def _gemini(items):
+RETRY_CODES = (404, 429, 500, 502, 503, 504)   # model missing or overloaded: try the next one
+
+
+def gemini_generate(prompt, tag="gemini"):
+    """Ask Gemini, falling back across models and retrying once if they are overloaded.
+    Returns the response text. Raises if nothing answers."""
     candidates = ([os.environ["GEMINI_MODEL"]] if os.environ.get("GEMINI_MODEL") else []) + GEMINI_MODELS
     body = {
-        "contents": [{"parts": [{"text": PROMPT.format(lines=_lines(items))}]}],
+        "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json"},
     }
-    last = None
-    for model in candidates:
-        r = requests.post(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-            headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-            json=body,
-            timeout=60,
-        )
-        if r.status_code == 404:
-            last = f"{model}: 404"
-            print(f"[judge:gemini] model {model} not available, trying next")
-            continue
-        r.raise_for_status()
-        print(f"[judge:gemini] using {model}")
-        return _parse(r.json()["candidates"][0]["content"]["parts"][0]["text"], len(items))
-    raise RuntimeError(f"no Gemini model available ({last})")
+    last = "no model tried"
+    for attempt in range(2):
+        transient = False
+        for model in candidates:
+            r = requests.post(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                json=body,
+                timeout=45,
+            )
+            if r.status_code in RETRY_CODES:
+                last = f"{model}: {r.status_code}"
+                transient = transient or r.status_code != 404
+                print(f"[{tag}] model {model} unavailable ({r.status_code}), trying next")
+                continue
+            r.raise_for_status()
+            print(f"[{tag}] using {model}")
+            return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        if attempt == 0 and transient:
+            time.sleep(5)
+        else:
+            break
+    raise RuntimeError(f"no Gemini model answered ({last})")
+
+
+def _gemini(items):
+    return _parse(gemini_generate(PROMPT.format(lines=_lines(items)), "judge:gemini"), len(items))
 
 
 def _claude(items):
