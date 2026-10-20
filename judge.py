@@ -67,11 +67,11 @@ def _parse(text, count):
     return verdicts
 
 
-GEMINI_MODELS = [          # tried in order; a 404 just moves on to the next one
+GEMINI_MODELS = [          # tried in order; missing, overloaded or silent models are skipped
+    "gemini-3.5-flash-lite",   # light and fast: plenty for sorting headlines
+    "gemini-3.1-flash-lite",
     "gemini-3.8-flash",
     "gemini-3.6-flash",
-    "gemini-3.5-flash-lite",
-    "gemini-3.1-flash-lite",
     "gemini-3-flash-preview",
     "gemini-2.5-flash",
 ]
@@ -81,23 +81,32 @@ RETRY_CODES = (404, 429, 500, 502, 503, 504)   # model missing or overloaded: tr
 
 
 def gemini_generate(prompt, tag="gemini"):
-    """Ask Gemini, falling back across models and retrying once if they are overloaded.
-    Returns the response text. Raises if nothing answers."""
+    """Ask Gemini, falling back across models and retrying once if they are overloaded or silent.
+    Returns the response text. Raises if nothing answers within ~90 seconds."""
     candidates = ([os.environ["GEMINI_MODEL"]] if os.environ.get("GEMINI_MODEL") else []) + GEMINI_MODELS
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json"},
     }
+    deadline = time.time() + 90
     last = "no model tried"
     for attempt in range(2):
         transient = False
         for model in candidates:
-            r = requests.post(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-                json=body,
-                timeout=45,
-            )
+            if time.time() > deadline:
+                raise RuntimeError(f"gave up after 90s ({last})")
+            try:
+                r = requests.post(
+                    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                    headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                    json=body,
+                    timeout=25,
+                )
+            except requests.RequestException as e:      # timeout, dropped connection...
+                last = f"{model}: {type(e).__name__}"
+                transient = True
+                print(f"[{tag}] model {model} did not respond ({type(e).__name__}), trying next")
+                continue
             if r.status_code in RETRY_CODES:
                 last = f"{model}: {r.status_code}"
                 transient = transient or r.status_code != 404
