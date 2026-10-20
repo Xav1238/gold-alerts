@@ -1,0 +1,35 @@
+name: gold-digest
+
+on:
+  schedule:
+    # UTC times. 12:00, 16:00, 20:00 UTC = 8am, noon, 4pm Toronto in summer time
+    # (7am, 11am, 3pm after clocks go back in November). Weekdays only.
+    - cron: "0 12,16,20 * * 1-5"
+  workflow_dispatch:         # lets you press "Run workflow" to test it now
+
+permissions:
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build and send digest
+        run: python digest.py
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          JUDGE_PROVIDER: ${{ vars.JUDGE_PROVIDER }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          CAL_COUNTRIES: ${{ vars.CAL_COUNTRIES }}
+          DIGEST_HOURS_BACK: ${{ vars.DIGEST_HOURS_BACK }}
+          TZ_NAME: ${{ vars.TZ_NAME }}
