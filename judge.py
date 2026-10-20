@@ -66,19 +66,38 @@ def _parse(text, count):
     return verdicts
 
 
+GEMINI_MODELS = [          # tried in order; a 404 just moves on to the next one
+    "gemini-3.8-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite",
+    "gemini-3-flash-preview",
+    "gemini-2.5-flash",
+]
+
+
 def _gemini(items):
-    model = os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash"
-    r = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-        headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
-        json={
-            "contents": [{"parts": [{"text": PROMPT.format(lines=_lines(items))}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1},
-        },
-        timeout=60,
-    )
-    r.raise_for_status()
-    return _parse(r.json()["candidates"][0]["content"]["parts"][0]["text"], len(items))
+    candidates = ([os.environ["GEMINI_MODEL"]] if os.environ.get("GEMINI_MODEL") else []) + GEMINI_MODELS
+    body = {
+        "contents": [{"parts": [{"text": PROMPT.format(lines=_lines(items))}]}],
+        "generationConfig": {"responseMimeType": "application/json"},
+    }
+    last = None
+    for model in candidates:
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+            json=body,
+            timeout=60,
+        )
+        if r.status_code == 404:
+            last = f"{model}: 404"
+            print(f"[judge:gemini] model {model} not available, trying next")
+            continue
+        r.raise_for_status()
+        print(f"[judge:gemini] using {model}")
+        return _parse(r.json()["candidates"][0]["content"]["parts"][0]["text"], len(items))
+    raise RuntimeError(f"no Gemini model available ({last})")
 
 
 def _claude(items):
