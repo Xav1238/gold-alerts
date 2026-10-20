@@ -13,9 +13,7 @@ import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import requests
-
-from judge import GEMINI_MODELS
+from judge import gemini_generate
 from notify import send
 from sources import fetch_calendar, fetch_news, is_relevant
 
@@ -48,32 +46,12 @@ def env(key, default):
 
 
 def ask_gemini(lines):
-    """Returns the briefing dict, or None if no AI is configured or no model answers."""
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key or env("JUDGE_PROVIDER", "gemini").lower() != "gemini":
+    """Returns the briefing dict, or None if no AI is configured."""
+    if not os.environ.get("GEMINI_API_KEY") or env("JUDGE_PROVIDER", "gemini").lower() != "gemini":
         return None
-    candidates = ([os.environ["GEMINI_MODEL"]] if os.environ.get("GEMINI_MODEL") else []) + GEMINI_MODELS
-    body = {
-        "contents": [{"parts": [{"text": PROMPT.format(lines=lines)}]}],
-        "generationConfig": {"responseMimeType": "application/json"},
-    }
-    for model in candidates:
-        r = requests.post(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-            headers={"x-goog-api-key": key},
-            json=body,
-            timeout=60,
-        )
-        if r.status_code == 404:
-            print(f"[digest:gemini] model {model} not available, trying next")
-            continue
-        r.raise_for_status()
-        print(f"[digest:gemini] using {model}")
-        text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
-        return json.loads(text)
-    print("[digest:gemini] no model available")
-    return None
+    text = gemini_generate(PROMPT.format(lines=lines), "digest:gemini")
+    text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+    return json.loads(text)
 
 
 def age_text(ts, now):
