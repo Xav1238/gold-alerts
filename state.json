@@ -10,1051 +10,916 @@
  "calendar": {
   "events": [
    {
-    "country": "CAD",
-    "forecast": "",
-    "id": "b1ab60003a14cbe6",
-    "impact": "Holiday",
-    "previous": "",
-    "title": "Daylight Saving Time Shift",
-    "ts": 1793516400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "ad3f9a3637f31e93",
-    "impact": "Holiday",
-    "previous": "",
-    "title": "Daylight Saving Time Shift",
-    "ts": 1793516400.0
-   },
-   {
     "country": "AUD",
     "forecast": "",
-    "id": "c3645f90c87a44cd",
+    "id": "c394cdecafb5fd85",
     "impact": "Low",
-    "previous": "0.3%",
-    "title": "MI Inflation Gauge m/m",
-    "ts": 1793577600.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "1.8%",
-    "id": "1041b340afc7666b",
-    "impact": "Low",
-    "previous": "-6.1%",
-    "title": "Building Approvals m/m",
-    "ts": 1793579400.0
-   },
-   {
-    "country": "JPY",
-    "forecast": "53.3",
-    "id": "c37cc73fcd8456d1",
-    "impact": "Low",
-    "previous": "53.3",
-    "title": "Final Manufacturing PMI",
-    "ts": 1793579400.0
+    "previous": "",
+    "title": "RBA Assist Gov Hunter Speaks",
+    "ts": 1794177000.0
    },
    {
     "country": "CNY",
-    "forecast": "52.0",
-    "id": "ce9eb7d09ae3385c",
-    "impact": "Low",
-    "previous": "52.1",
-    "title": "RatingDog Manufacturing PMI",
-    "ts": 1793583900.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "",
-    "id": "41cbe18eed6ab6f7",
-    "impact": "Low",
-    "previous": "15.5%",
-    "title": "Commodity Prices y/y",
-    "ts": 1793597400.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "0.4%",
-    "id": "2c85489961942541",
-    "impact": "Low",
-    "previous": "1.3%",
-    "title": "German Retail Sales m/m",
-    "ts": 1793602800.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "3.0%",
-    "id": "054a08d3728a56f5",
-    "impact": "Low",
-    "previous": "3.2%",
-    "title": "Retail Sales y/y",
-    "ts": 1793604780.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "50.4",
-    "id": "4a65c1e4e32536f7",
-    "impact": "Low",
-    "previous": "51.0",
-    "title": "Spanish Manufacturing PMI",
-    "ts": 1793607300.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "55.3",
-    "id": "11000776afdd2310",
-    "impact": "Low",
-    "previous": "55.3",
-    "title": "Manufacturing PMI",
-    "ts": 1793608200.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "49.9",
-    "id": "aa22575f0955223c",
-    "impact": "Low",
-    "previous": "50.4",
-    "title": "Italian Manufacturing PMI",
-    "ts": 1793609100.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "49.3",
-    "id": "461e0f4be76dde4e",
-    "impact": "Low",
-    "previous": "49.3",
-    "title": "French Final Manufacturing PMI",
-    "ts": 1793609400.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "54.2",
-    "id": "7ce7c59929b6581d",
-    "impact": "Low",
-    "previous": "54.2",
-    "title": "German Final Manufacturing PMI",
-    "ts": 1793609700.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "52.4",
-    "id": "cd0b19e35fd3334e",
-    "impact": "Low",
-    "previous": "52.4",
-    "title": "Final Manufacturing PMI",
-    "ts": 1793610000.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "52.8",
-    "id": "a4fe046e4c64ed8e",
-    "impact": "Low",
-    "previous": "52.8",
-    "title": "Final Manufacturing PMI",
-    "ts": 1793611800.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "",
-    "id": "e2a1fa0d35b8031a",
-    "impact": "Low",
-    "previous": "",
-    "title": "German Buba President Nagel Speaks",
-    "ts": 1793620800.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "",
-    "id": "30c177faf1eae5c4",
-    "impact": "Low",
-    "previous": "51.5",
-    "title": "Manufacturing PMI",
-    "ts": 1793629800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "56.0",
-    "id": "5dc15f24cae1a160",
-    "impact": "Low",
-    "previous": "56.0",
-    "title": "Final Manufacturing PMI",
-    "ts": 1793630700.0
-   },
-   {
-    "country": "USD",
-    "forecast": "54.5",
-    "id": "5d719e9de0020a02",
-    "impact": "Medium",
-    "previous": "54.5",
-    "title": "ISM Manufacturing PMI",
-    "ts": 1793631600.0
-   },
-   {
-    "country": "USD",
-    "forecast": "0.4%",
-    "id": "2df2bdce6696a878",
+    "forecast": "0.8%",
+    "id": "947afd8e9f3af7d6",
     "impact": "Low",
     "previous": "0.9%",
-    "title": "Construction Spending m/m",
-    "ts": 1793631600.0
-   },
-   {
-    "country": "USD",
-    "forecast": "77.2",
-    "id": "cd791c2dd4dace91",
-    "impact": "Low",
-    "previous": "77.9",
-    "title": "ISM Manufacturing Prices",
-    "ts": 1793631600.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "265257439cf46ac1",
-    "impact": "Low",
-    "previous": "",
-    "title": "Loan Officer Survey",
-    "ts": 1793646000.0
-   },
-   {
-    "country": "NZD",
-    "forecast": "",
-    "id": "751ae5f7fbebf1af",
-    "impact": "Low",
-    "previous": "5.6%",
-    "title": "Building Consents m/m",
-    "ts": 1793655900.0
-   },
-   {
-    "country": "JPY",
-    "forecast": "",
-    "id": "929ef091e3be37d8",
-    "impact": "Holiday",
-    "previous": "",
-    "title": "Bank Holiday",
-    "ts": 1793664000.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "4.85%",
-    "id": "3a853447544dc4f2",
-    "impact": "High",
-    "previous": "4.60%",
-    "title": "Cash Rate",
-    "ts": 1793676600.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "",
-    "id": "792f27f4f4b546c7",
-    "impact": "High",
-    "previous": "",
-    "title": "RBA Monetary Policy Statement",
-    "ts": 1793676600.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "",
-    "id": "f5dce8072d5fa81c",
-    "impact": "High",
-    "previous": "",
-    "title": "RBA Rate Statement",
-    "ts": 1793676600.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "",
-    "id": "f217dec553522f32",
-    "impact": "High",
-    "previous": "",
-    "title": "RBA Press Conference",
-    "ts": 1793680200.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "0.0%",
-    "id": "cb0e518cd557381a",
-    "impact": "Medium",
-    "previous": "0.0%",
-    "title": "CPI m/m",
-    "ts": 1793691000.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "",
-    "id": "edfe0d4ae1ab3411",
-    "impact": "Low",
-    "previous": "-159.6B",
-    "title": "French Gov Budget Balance",
-    "ts": 1793691900.0
-   },
-   {
-    "country": "USD",
-    "forecast": "46.2",
-    "id": "999543d5aeebe467",
-    "impact": "Low",
-    "previous": "46.8",
-    "title": "RCM/TIPP Economic Optimism",
-    "ts": 1793696400.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "",
-    "id": "1f7bf4ce6ee9846c",
-    "impact": "Low",
-    "previous": "5.42|3.6",
-    "title": "10-y Bond Auction",
-    "ts": 1793700120.0
-   },
-   {
-    "country": "USD",
-    "forecast": "7.15M",
-    "id": "81feccf80114f7a4",
-    "impact": "Medium",
-    "previous": "7.08M",
-    "title": "JOLTS Job Openings",
-    "ts": 1793718000.0
-   },
-   {
-    "country": "USD",
-    "forecast": "1.2%",
-    "id": "ca7f4480ddd58ab1",
-    "impact": "Low",
-    "previous": "0.1%",
-    "title": "Factory Orders m/m",
-    "ts": 1793718000.0
-   },
-   {
-    "country": "USD",
-    "forecast": "15.8M",
-    "id": "78c8641540a4b6e5",
-    "impact": "Low",
-    "previous": "16.0M",
-    "title": "Omdia Total Vehicle Sales",
-    "ts": 1793718900.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "290a37b577a704ff",
-    "impact": "High",
-    "previous": "",
-    "title": "Congressional Elections",
-    "ts": 1793718960.0
-   },
-   {
-    "country": "NZD",
-    "forecast": "",
-    "id": "49e50ca59b8ae6d5",
-    "impact": "Low",
-    "previous": "2.5%",
-    "title": "GDT Price Index",
-    "ts": 1793719620.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "",
-    "id": "42eed5e300b7d08d",
-    "impact": "Medium",
-    "previous": "",
-    "title": "BOC Gov Macklem Speaks",
-    "ts": 1793721600.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "",
-    "id": "ce3044b0a7e51bda",
-    "impact": "Low",
-    "previous": "",
-    "title": "German Buba President Nagel Speaks",
-    "ts": 1793728800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "dbbbf99d7e6ea065",
-    "impact": "Low",
-    "previous": "",
-    "title": "API Weekly Statistical Bulletin",
-    "ts": 1793741400.0
-   },
-   {
-    "country": "NZD",
-    "forecast": "0.4%",
-    "id": "e4a3deb4373f3081",
-    "impact": "High",
-    "previous": "0.5%",
-    "title": "Employment Change q/q",
-    "ts": 1793742300.0
-   },
-   {
-    "country": "NZD",
-    "forecast": "5.5%",
-    "id": "7c87f69c6c44b1fc",
-    "impact": "High",
-    "previous": "5.6%",
-    "title": "Unemployment Rate",
-    "ts": 1793742300.0
-   },
-   {
-    "country": "NZD",
-    "forecast": "0.5%",
-    "id": "3b1fc286c2376bc5",
-    "impact": "Low",
-    "previous": "0.7%",
-    "title": "Labor Cost Index q/q",
-    "ts": 1793742300.0
-   },
-   {
-    "country": "JPY",
-    "forecast": "-14.0%",
-    "id": "f1509ee5d1c1e886",
-    "impact": "Low",
-    "previous": "-15.2%",
-    "title": "Monetary Base y/y",
-    "ts": 1793749800.0
-   },
-   {
-    "country": "NZD",
-    "forecast": "",
-    "id": "43f07622007a45b2",
-    "impact": "Low",
-    "previous": "0.6%",
-    "title": "ANZ Commodity Prices m/m",
-    "ts": 1793750400.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "0.2%",
-    "id": "a892add2d58f7d8d",
-    "impact": "Low",
-    "previous": "0.0%",
-    "title": "Household Spending m/m",
-    "ts": 1793752200.0
+    "title": "CPI y/y",
+    "ts": 1794187800.0
    },
    {
     "country": "CNY",
-    "forecast": "51.7",
-    "id": "1decfde538c44819",
+    "forecast": "5.3%",
+    "id": "e32164bd7da6fdda",
     "impact": "Low",
-    "previous": "51.6",
-    "title": "RatingDog Services PMI",
-    "ts": 1793756700.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "18.7K",
-    "id": "ee5ef5f5540b159d",
-    "impact": "Low",
-    "previous": "23.6K",
-    "title": "Spanish Unemployment Change",
-    "ts": 1793779200.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "57.6",
-    "id": "ddc4c9846d76e819",
-    "impact": "Low",
-    "previous": "58.3",
-    "title": "Spanish Services PMI",
-    "ts": 1793780100.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "51.4",
-    "id": "94e258f4ff74a3a6",
-    "impact": "Low",
-    "previous": "51.7",
-    "title": "Italian Services PMI",
-    "ts": 1793781900.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "48.4",
-    "id": "88dfcc7458e2d895",
-    "impact": "Low",
-    "previous": "48.4",
-    "title": "French Final Services PMI",
-    "ts": 1793782200.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "51.7",
-    "id": "6e5ea719a7ad6d0a",
-    "impact": "Low",
-    "previous": "51.7",
-    "title": "German Final Services PMI",
-    "ts": 1793782500.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "51.7",
-    "id": "3e6dfa5852d28447",
-    "impact": "Low",
-    "previous": "51.7",
-    "title": "Final Services PMI",
-    "ts": 1793782800.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "53.1",
-    "id": "ef31fd205422f5e1",
-    "impact": "Low",
-    "previous": "53.1",
-    "title": "Final Services PMI",
-    "ts": 1793784600.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "2.5%",
-    "id": "48bab01651e80b13",
-    "impact": "Medium",
-    "previous": "2.5%",
-    "title": "Core CPI Flash Estimate y/y",
-    "ts": 1793786400.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "4.0%",
-    "id": "8e3bbac376231e41",
-    "impact": "Medium",
-    "previous": "3.8%",
-    "title": "CPI Flash Estimate y/y",
-    "ts": 1793786400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "67K",
-    "id": "6ec15a97568abd08",
-    "impact": "Low",
-    "previous": "90K",
-    "title": "ADP Non-Farm Employment Change",
-    "ts": 1793798100.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "4.8B",
-    "id": "e17d8ab903ef8967",
-    "impact": "Low",
-    "previous": "4.2B",
-    "title": "Trade Balance",
-    "ts": 1793799000.0
-   },
-   {
-    "country": "USD",
-    "forecast": "-107.9B",
-    "id": "72c3c2e2063d52d5",
-    "impact": "Low",
-    "previous": "-105.6B",
-    "title": "Trade Balance",
-    "ts": 1793799000.0
-   },
-   {
-    "country": "USD",
-    "forecast": "57.9",
-    "id": "af94dd49a8561642",
-    "impact": "Low",
-    "previous": "57.9",
-    "title": "Final Services PMI",
-    "ts": 1793803500.0
-   },
-   {
-    "country": "USD",
-    "forecast": "54.8",
-    "id": "759d49471afbdde3",
-    "impact": "Medium",
-    "previous": "54.9",
-    "title": "ISM Services PMI",
-    "ts": 1793804400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "-1.7M",
-    "id": "328c0e7e9caf1438",
-    "impact": "Low",
-    "previous": "-1.9M",
-    "title": "Crude Oil Inventories",
-    "ts": 1793806200.0
+    "previous": "5.0%",
+    "title": "PPI y/y",
+    "ts": 1794187800.0
    },
    {
     "country": "JPY",
-    "forecast": "",
-    "id": "7f67f9f66d62c53f",
+    "forecast": "116.7%",
+    "id": "e1051b7c58511117",
     "impact": "Low",
-    "previous": "",
-    "title": "Monetary Policy Meeting Minutes",
-    "ts": 1793836200.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "0.94B",
-    "id": "7ae6fa4aff06437c",
-    "impact": "Low",
-    "previous": "0.50B",
-    "title": "Goods Trade Balance",
-    "ts": 1793838600.0
-   },
-   {
-    "country": "JPY",
-    "forecast": "",
-    "id": "3d12e0122334933f",
-    "impact": "Low",
-    "previous": "3.10|3.8",
-    "title": "10-y Bond Auction",
-    "ts": 1793849700.0
-   },
-   {
-    "country": "AUD",
-    "forecast": "",
-    "id": "266e5fa293acd0fc",
-    "impact": "Low",
-    "previous": "",
-    "title": "RBA Deputy Gov Hauser Speaks",
-    "ts": 1793861100.0
+    "previous": "118.0%",
+    "title": "Leading Indicators",
+    "ts": 1794200400.0
    },
    {
     "country": "EUR",
-    "forecast": "4.6%",
-    "id": "8c4e1f0323f35a43",
+    "forecast": "19.2B",
+    "id": "162181e90c191ea3",
     "impact": "Low",
-    "previous": "-10.6%",
-    "title": "German Factory Orders m/m",
-    "ts": 1793862000.0
+    "previous": "19.5B",
+    "title": "German Trade Balance",
+    "ts": 1794207600.0
+   },
+   {
+    "country": "CNY",
+    "forecast": "7.3%",
+    "id": "fe6eac0189f15b8d",
+    "impact": "Low",
+    "previous": "7.2%",
+    "title": "M2 Money Supply y/y",
+    "ts": 1794214980.0
+   },
+   {
+    "country": "CNY",
+    "forecast": "80B",
+    "id": "62f9d92be6c6ad7b",
+    "impact": "Low",
+    "previous": "1080B",
+    "title": "New Loans",
+    "ts": 1794214980.0
    },
    {
     "country": "EUR",
-    "forecast": "0.3%",
-    "id": "1e70a314994abade",
+    "forecast": "2.1",
+    "id": "918a3fbee38c64db",
     "impact": "Low",
-    "previous": "-0.3%",
-    "title": "French Industrial Production m/m",
-    "ts": 1793864700.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "3.1%",
-    "id": "60daa57d3b2627b3",
-    "impact": "Low",
-    "previous": "3.1%",
-    "title": "Unemployment Rate",
-    "ts": 1793865600.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "0.0%",
-    "id": "5ad0cf508c7bdab1",
-    "impact": "Low",
-    "previous": "0.3%",
-    "title": "Italian Retail Sales m/m",
-    "ts": 1793869200.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "46.4",
-    "id": "7817afd1f3626d1b",
-    "impact": "Low",
-    "previous": "46.1",
-    "title": "Construction PMI",
-    "ts": 1793871000.0
+    "previous": "2.7",
+    "title": "Sentix Investor Confidence",
+    "ts": 1794216600.0
    },
    {
     "country": "EUR",
     "forecast": "",
-    "id": "53bdbc72bb4f026f",
+    "id": "87cbd4285c3755ad",
     "impact": "Low",
-    "previous": "4.18|1.6",
-    "title": "Spanish 10-y Bond Auction",
-    "ts": 1793871540.0
+    "previous": "",
+    "title": "ECOFIN Meetings",
+    "ts": 1794219300.0
    },
    {
     "country": "EUR",
     "forecast": "",
-    "id": "779450e9781bf5d7",
+    "id": "fe69811b293d66de",
     "impact": "Low",
-    "previous": "4.93|2.0",
-    "title": "French 10-y Bond Auction",
-    "ts": 1793872500.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "2.5%",
-    "id": "788a52f6c627cb80",
-    "impact": "Low",
-    "previous": "1.9%",
-    "title": "PPI m/m",
-    "ts": 1793872800.0
+    "previous": "",
+    "title": "Eurogroup Meetings",
+    "ts": 1794219300.0
    },
    {
     "country": "USD",
     "forecast": "",
-    "id": "fa8b0bbca3c8c7d3",
-    "impact": "Low",
-    "previous": "-19.9%",
-    "title": "Challenger Job Cuts y/y",
-    "ts": 1793874600.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "",
-    "id": "b3c3edddcfcabdb5",
-    "impact": "High",
-    "previous": "",
-    "title": "BOE Monetary Policy Report",
-    "ts": 1793880000.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "",
-    "id": "72ff8ee0c99be40f",
-    "impact": "High",
-    "previous": "",
-    "title": "Monetary Policy Summary",
-    "ts": 1793880000.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "7-0-2",
-    "id": "f66c61bc2200b0b6",
-    "impact": "High",
-    "previous": "3-0-6",
-    "title": "MPC Official Bank Rate Votes",
-    "ts": 1793880000.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "4.00%",
-    "id": "72da5d4ea5af4e78",
-    "impact": "High",
-    "previous": "3.75%",
-    "title": "Official Bank Rate",
-    "ts": 1793880000.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "",
-    "id": "ac4c5387d9c40a3b",
-    "impact": "High",
-    "previous": "",
-    "title": "BOE Gov Bailey Speaks",
-    "ts": 1793881800.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "",
-    "id": "bebaf0d6896f9af0",
-    "impact": "Medium",
-    "previous": "",
-    "title": "SNB Chairman Schlegel Speaks",
-    "ts": 1793882400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "197K",
-    "id": "6aee678c88b530a3",
-    "impact": "Medium",
-    "previous": "194K",
-    "title": "Unemployment Claims",
-    "ts": 1793885400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "2.8%",
-    "id": "2c95e4cd3adfb7ea",
-    "impact": "Low",
-    "previous": "1.4%",
-    "title": "Prelim Nonfarm Productivity q/q",
-    "ts": 1793885400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "0.3%",
-    "id": "d58bfed7687541b2",
-    "impact": "Low",
-    "previous": "1.3%",
-    "title": "Prelim Unit Labor Costs q/q",
-    "ts": 1793885400.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "cb0bca469649ea42",
-    "impact": "Low",
-    "previous": "",
-    "title": "FOMC Member Hammack Speaks",
-    "ts": 1793886600.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "779482c13cf649bb",
-    "impact": "Low",
-    "previous": "",
-    "title": "FOMC Member Barkin Speaks",
-    "ts": 1793887800.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "",
-    "id": "8559df2940c6af85",
-    "impact": "Medium",
-    "previous": "",
-    "title": "BOC Gov Macklem Speaks",
-    "ts": 1793892600.0
-   },
-   {
-    "country": "USD",
-    "forecast": "81B",
-    "id": "a46db2de890f41a3",
-    "impact": "Low",
-    "previous": "80B",
-    "title": "Natural Gas Storage",
-    "ts": 1793892600.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "",
-    "id": "061901ef9ad929e0",
-    "impact": "Low",
-    "previous": "",
-    "title": "German Buba President Nagel Speaks",
-    "ts": 1793900700.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "",
-    "id": "2bf2c9cde25bfc8f",
-    "impact": "Medium",
-    "previous": "",
-    "title": "ECB President Lagarde Speaks",
-    "ts": 1793901600.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "",
-    "id": "f45161d1908fbb67",
-    "impact": "Medium",
-    "previous": "",
-    "title": "Annual Budget Release",
-    "ts": 1793912400.0
-   },
-   {
-    "country": "JPY",
-    "forecast": "3.8%",
-    "id": "014d28c76790b75a",
-    "impact": "Low",
-    "previous": "3.8%",
-    "title": "Average Cash Earnings y/y",
-    "ts": 1793921400.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "0.0%",
-    "id": "5e755ac098e8933f",
-    "impact": "Low",
-    "previous": "2.0%",
-    "title": "German Industrial Production m/m",
-    "ts": 1793948400.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "0.0%",
-    "id": "dabc1507b21d2e9a",
-    "impact": "Low",
-    "previous": "0.0%",
-    "title": "Lloyds HPI m/m",
-    "ts": 1793948400.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "-5.8B",
-    "id": "93b5f85d30db46fd",
-    "impact": "Low",
-    "previous": "-6.1B",
-    "title": "French Trade Balance",
-    "ts": 1793951100.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "",
-    "id": "7ab88f0ba3f4d2d4",
-    "impact": "Low",
-    "previous": "770B",
-    "title": "Foreign Currency Reserves",
-    "ts": 1793952000.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "-35",
-    "id": "40308c513a0c5dbf",
-    "impact": "Low",
-    "previous": "-36",
-    "title": "SECO Consumer Climate",
-    "ts": 1793952000.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "278c88b4cf7fd9a5",
-    "impact": "Low",
-    "previous": "",
-    "title": "FOMC Member Williams Speaks",
-    "ts": 1793957400.0
-   },
-   {
-    "country": "EUR",
-    "forecast": "-0.1%",
-    "id": "fab445beacca0a5a",
-    "impact": "Low",
-    "previous": "0.1%",
-    "title": "Retail Sales m/m",
-    "ts": 1793959200.0
-   },
-   {
-    "country": "CHF",
-    "forecast": "",
-    "id": "93b535994f0c7d37",
-    "impact": "Low",
-    "previous": "",
-    "title": "Gov Board Member Tschudin Speaks",
-    "ts": 1793962800.0
-   },
-   {
-    "country": "GBP",
-    "forecast": "",
-    "id": "6007a5d87c185d46",
-    "impact": "Low",
-    "previous": "",
-    "title": "MPC Member Pill Speaks",
-    "ts": 1793967300.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "14.6K",
-    "id": "246f5c92effd5bb8",
-    "impact": "High",
-    "previous": "-68.3K",
-    "title": "Employment Change",
-    "ts": 1793971800.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "6.5%",
-    "id": "538ffd14a5940727",
-    "impact": "High",
-    "previous": "6.5%",
-    "title": "Unemployment Rate",
-    "ts": 1793971800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "0.3%",
-    "id": "7017fe941ed2aa8e",
-    "impact": "High",
-    "previous": "0.1%",
-    "title": "Average Hourly Earnings m/m",
-    "ts": 1793971800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "65K",
-    "id": "bdad5b8b895e7316",
-    "impact": "High",
-    "previous": "29K",
-    "title": "Non-Farm Employment Change",
-    "ts": 1793971800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "4.2%",
-    "id": "8cb43309f142fc64",
-    "impact": "High",
-    "previous": "4.2%",
-    "title": "Unemployment Rate",
-    "ts": 1793971800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "8860c3317f494311",
-    "impact": "Low",
-    "previous": "",
-    "title": "FOMC Member Musalem Speaks",
-    "ts": 1793974200.0
-   },
-   {
-    "country": "CAD",
-    "forecast": "57.7",
-    "id": "ade0110be4ffa18f",
-    "impact": "Medium",
-    "previous": "58.2",
-    "title": "Ivey PMI",
-    "ts": 1793977200.0
-   },
-   {
-    "country": "USD",
-    "forecast": "48.1",
-    "id": "ca6988140fbb7393",
-    "impact": "Medium",
-    "previous": "46.3",
-    "title": "Prelim UoM Consumer Sentiment",
-    "ts": 1793977200.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "e1b6263e509939b9",
-    "impact": "Medium",
-    "previous": "4.7%",
-    "title": "Prelim UoM Inflation Expectations",
-    "ts": 1793977200.0
-   },
-   {
-    "country": "JPY",
-    "forecast": "",
-    "id": "c8fc0b21b10fc60e",
-    "impact": "High",
-    "previous": "",
-    "title": "BOJ Gov Ueda Speaks",
-    "ts": 1793980800.0
-   },
-   {
-    "country": "USD",
-    "forecast": "",
-    "id": "2503acc9f4e665ed",
+    "id": "17f2f6ff96a1b87f",
     "impact": "Low",
     "previous": "",
     "title": "FOMC Member Bowman Speaks",
-    "ts": 1793985300.0
+    "ts": 1794231600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "0.6%",
+    "id": "29b95387fe791923",
+    "impact": "Low",
+    "previous": "0.6%",
+    "title": "Final Wholesale Inventories m/m",
+    "ts": 1794236400.0
    },
    {
     "country": "USD",
     "forecast": "",
-    "id": "e3b5f5092d1b5677",
+    "id": "4e83d6cacf66e62d",
     "impact": "Low",
     "previous": "",
-    "title": "FOMC Member Daly Speaks",
-    "ts": 1793988000.0
+    "title": "FOMC Member Goolsbee Speaks",
+    "ts": 1794236400.0
    },
    {
     "country": "USD",
-    "forecast": "13.4B",
-    "id": "58a0ebde3e766dd0",
+    "forecast": "",
+    "id": "2ede90932aef3868",
     "impact": "Low",
-    "previous": "8.3B",
-    "title": "Consumer Credit m/m",
-    "ts": 1793995200.0
+    "previous": "",
+    "title": "FOMC Member Barkin Speaks",
+    "ts": 1794244500.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "203ad9af245cce3a",
+    "impact": "Medium",
+    "previous": "",
+    "title": "BOE Gov Bailey Speaks",
+    "ts": 1794245100.0
+   },
+   {
+    "country": "AUD",
+    "forecast": "",
+    "id": "c5cb7c4dcb2c7321",
+    "impact": "Low",
+    "previous": "-4.7%",
+    "title": "Westpac Consumer Sentiment",
+    "ts": 1794267000.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "-3.1%",
+    "id": "c5128769463a3deb",
+    "impact": "Low",
+    "previous": "-3.1%",
+    "title": "Household Spending y/y",
+    "ts": 1794267000.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "5.4%",
+    "id": "2cea2d1d5b73b755",
+    "impact": "Low",
+    "previous": "5.3%",
+    "title": "Bank Lending y/y",
+    "ts": 1794268200.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "",
+    "id": "059f2afaa26263ac",
+    "impact": "Low",
+    "previous": "",
+    "title": "BOJ Summary of Opinions",
+    "ts": 1794268200.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "2.81T",
+    "id": "f65c8b4e33d9e610",
+    "impact": "Low",
+    "previous": "2.98T",
+    "title": "Current Account",
+    "ts": 1794268200.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "1.2%",
+    "id": "9ac10484942961e6",
+    "impact": "Low",
+    "previous": "1.0%",
+    "title": "BRC Retail Sales Monitor y/y",
+    "ts": 1794268860.0
+   },
+   {
+    "country": "AUD",
+    "forecast": "",
+    "id": "0d9bf5573e7eb29a",
+    "impact": "Low",
+    "previous": "-13",
+    "title": "NAB Business Confidence",
+    "ts": 1794270600.0
+   },
+   {
+    "country": "CNY",
+    "forecast": "859B",
+    "id": "1175002d8d849191",
+    "impact": "Low",
+    "previous": "906B",
+    "title": "Trade Balance",
+    "ts": 1794279780.0
+   },
+   {
+    "country": "CNY",
+    "forecast": "126.5B",
+    "id": "c2a987b6180f5528",
+    "impact": "Low",
+    "previous": "133.5B",
+    "title": "USD-Denominated Trade Balance",
+    "ts": 1794279840.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "",
+    "id": "3bbb8cc6984dd447",
+    "impact": "Low",
+    "previous": "4.11|3.9",
+    "title": "30-y Bond Auction",
+    "ts": 1794281700.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "46.9",
+    "id": "75703a9270dac7b4",
+    "impact": "Low",
+    "previous": "47.0",
+    "title": "Economy Watchers Sentiment",
+    "ts": 1794286800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "5fd0887d8354429f",
+    "impact": "Low",
+    "previous": "",
+    "title": "MPC Member Breeden Speaks",
+    "ts": 1794299400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "052d394f5f8dcda9",
+    "impact": "Medium",
+    "previous": "",
+    "title": "FOMC Member Waller Speaks",
+    "ts": 1794301200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "97.7",
+    "id": "cd65d300296bbc25",
+    "impact": "Low",
+    "previous": "97.9",
+    "title": "NFIB Small Business Index",
+    "ts": 1794308400.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "3d1f923a07e130da",
+    "impact": "Low",
+    "previous": "5.52|3.8",
+    "title": "30-y Bond Auction",
+    "ts": 1794310320.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "edc4005d510a916f",
+    "impact": "Low",
+    "previous": "",
+    "title": "MPC Member Lombardelli Speaks",
+    "ts": 1794313800.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "aad447fcad4c8d15",
+    "impact": "Low",
+    "previous": "",
+    "title": "ADP Weekly Employment Change",
+    "ts": 1794316500.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "29e2c8edb6caa3aa",
+    "impact": "Low",
+    "previous": "16.8K",
+    "title": "ADP Weekly Employment Change",
+    "ts": 1794316560.0
+   },
+   {
+    "country": "USD",
+    "forecast": "0.2%",
+    "id": "0703d90f0f3832d3",
+    "impact": "High",
+    "previous": "0.3%",
+    "title": "Core CPI m/m",
+    "ts": 1794317400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "0.3%",
+    "id": "acdf15a98771f984",
+    "impact": "High",
+    "previous": "0.6%",
+    "title": "CPI m/m",
+    "ts": 1794317400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "6ad55a73ff17ba4f",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Logan Speaks",
+    "ts": 1794325800.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "4b1a37ea51e59467",
+    "impact": "Low",
+    "previous": "5.30|2.8",
+    "title": "10-y Bond Auction",
+    "ts": 1794333660.0
+   },
+   {
+    "country": "CAD",
+    "forecast": "",
+    "id": "84251301accddfff",
+    "impact": "Low",
+    "previous": "",
+    "title": "BOC Summary of Deliberations",
+    "ts": 1794335400.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "b3a5e0e29143084b",
+    "impact": "Low",
+    "previous": "",
+    "title": "MPC Member Pill Speaks",
+    "ts": 1794335400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "41ba0f3a0ecd1b10",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Schmid Speaks",
+    "ts": 1794335400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "5896d14d387949b3",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Bowman Speaks",
+    "ts": 1794342600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "73c05d0e274cdae5",
+    "impact": "Low",
+    "previous": "",
+    "title": "API Weekly Statistical Bulletin",
+    "ts": 1794346200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "818d30021ae15af0",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Bowman Speaks",
+    "ts": 1794353400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "11e147b53b40f9d5",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Paulson Speaks",
+    "ts": 1794353400.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "2.1%",
+    "id": "4ee3463866c0fafd",
+    "impact": "Low",
+    "previous": "2.0%",
+    "title": "M2 Money Stock y/y",
+    "ts": 1794354600.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "",
+    "id": "1fd2c2725e0eb083",
+    "impact": "Low",
+    "previous": "60.4%",
+    "title": "Prelim Machine Tool Orders y/y",
+    "ts": 1794376800.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "-0.2%",
+    "id": "b6c0721c18177212",
+    "impact": "Low",
+    "previous": "-0.2%",
+    "title": "German Final CPI m/m",
+    "ts": 1794380400.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "2ffcbd0260015527",
+    "impact": "Holiday",
+    "previous": "",
+    "title": "French Bank Holiday",
+    "ts": 1794380460.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "89f1e2c7ac862423",
+    "impact": "Low",
+    "previous": "",
+    "title": "German Buba President Nagel Speaks",
+    "ts": 1794385200.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "0.7%",
+    "id": "21712dd7e2e63474",
+    "impact": "Low",
+    "previous": "-1.3%",
+    "title": "Italian Industrial Production m/m",
+    "ts": 1794387600.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "a510c81744092e29",
+    "impact": "Low",
+    "previous": "3.80|1.4",
+    "title": "German 30-y Bond Auction",
+    "ts": 1794393240.0
+   },
+   {
+    "country": "CAD",
+    "forecast": "",
+    "id": "e52f6f0833bd73e9",
+    "impact": "Holiday",
+    "previous": "",
+    "title": "Bank Holiday",
+    "ts": 1794402000.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "0779a822274bf874",
+    "impact": "Holiday",
+    "previous": "",
+    "title": "Bank Holiday",
+    "ts": 1794402000.0
    },
    {
     "country": "NZD",
     "forecast": "",
-    "id": "2219554b900182fd",
+    "id": "94632c1158b344e4",
+    "impact": "Low",
+    "previous": "2.8%",
+    "title": "Visitor Arrivals m/m",
+    "ts": 1794433500.0
+   },
+   {
+    "country": "JPY",
+    "forecast": "6.5%",
+    "id": "d42535493f247c48",
+    "impact": "Low",
+    "previous": "6.8%",
+    "title": "PPI y/y",
+    "ts": 1794441000.0
+   },
+   {
+    "country": "AUD",
+    "forecast": "",
+    "id": "2f2fc90c7905b913",
+    "impact": "Low",
+    "previous": "5.3%",
+    "title": "MI Inflation Expectations",
+    "ts": 1794441600.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "-32%",
+    "id": "bc24b948f2f5b0e7",
+    "impact": "Low",
+    "previous": "-32%",
+    "title": "RICS House Price Balance",
+    "ts": 1794441660.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "0.0%",
+    "id": "e358db766f776d19",
     "impact": "High",
+    "previous": "0.1%",
+    "title": "GDP m/m",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "0.7%",
+    "id": "2c23807a0711a4f3",
+    "impact": "Medium",
+    "previous": "0.5%",
+    "title": "Prelim GDP q/q",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "0.0%",
+    "id": "64db5f26a605970b",
+    "impact": "Low",
+    "previous": "-0.2%",
+    "title": "Construction Output m/m",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "-19.2B",
+    "id": "96a9bb86de42a96f",
+    "impact": "Low",
+    "previous": "-18.0B",
+    "title": "Goods Trade Balance",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "0.9%",
+    "id": "37a7989e6628405f",
+    "impact": "Low",
+    "previous": "0.9%",
+    "title": "Index of Services 3m/3m",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "-0.4%",
+    "id": "964d1a28f03d6f90",
+    "impact": "Low",
+    "previous": "0.8%",
+    "title": "Industrial Production m/m",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "-0.5%",
+    "id": "56ca1c95b620dbd2",
+    "impact": "Low",
+    "previous": "1.2%",
+    "title": "Manufacturing Production m/m",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "-0.3%",
+    "id": "bd295ff50b10a19f",
+    "impact": "Low",
+    "previous": "1.7%",
+    "title": "Prelim Business Investment q/q",
+    "ts": 1794466800.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "4bcbcacb81b1ab7d",
+    "impact": "Low",
     "previous": "",
-    "title": "Parliamentary Elections",
-    "ts": 1794001500.0
+    "title": "ECB Economic Bulletin",
+    "ts": 1794474000.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "f6afa2bb7da9cf74",
+    "impact": "Low",
+    "previous": "",
+    "title": "EU Economic Forecasts",
+    "ts": 1794477600.0
+   },
+   {
+    "country": "CAD",
+    "forecast": "-3.9%",
+    "id": "0914ad8994d591c7",
+    "impact": "Low",
+    "previous": "8.8%",
+    "title": "Building Permits m/m",
+    "ts": 1794490200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "194K",
+    "id": "c878d29da6e3504b",
+    "impact": "Medium",
+    "previous": "189K",
+    "title": "Unemployment Claims",
+    "ts": 1794490200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "097381a785a2c17f",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Hammack Speaks",
+    "ts": 1794492000.0
+   },
+   {
+    "country": "USD",
+    "forecast": "3.86M",
+    "id": "e55c67e6456f7656",
+    "impact": "Low",
+    "previous": "3.99M",
+    "title": "Existing Home Sales",
+    "ts": 1794495600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "a1bcdccac48fa10e",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Barr Speaks",
+    "ts": 1794495600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "ec99fdb64f37bd0d",
+    "impact": "Low",
+    "previous": "4.37%",
+    "title": "Mortgage Delinquencies",
+    "ts": 1794495600.0
+   },
+   {
+    "country": "AUD",
+    "forecast": "",
+    "id": "cee060ba42575016",
+    "impact": "Low",
+    "previous": "-0.3%",
+    "title": "CB Leading Index m/m",
+    "ts": 1794497400.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "508c0c2d1d243eb4",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Goolsbee Speaks",
+    "ts": 1794501000.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "569ac4bbe561f222",
+    "impact": "Low",
+    "previous": "-0.9M",
+    "title": "Crude Oil Inventories",
+    "ts": 1794502800.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "30305109320ec09d",
+    "impact": "Low",
+    "previous": "5.62|2.5",
+    "title": "30-y Bond Auction",
+    "ts": 1794506460.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "8e898d507939fcae",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Daly Speaks",
+    "ts": 1794507000.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "79331e81f7f6246f",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Schmid Speaks",
+    "ts": 1794508200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "61d750c0ff696149",
+    "impact": "Low",
+    "previous": "-26.9B",
+    "title": "Federal Budget Balance",
+    "ts": 1794510000.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "61430e3d658854d6",
+    "impact": "Medium",
+    "previous": "",
+    "title": "ECB President Lagarde Speaks",
+    "ts": 1794511800.0
+   },
+   {
+    "country": "NZD",
+    "forecast": "",
+    "id": "235fb410f4854b31",
+    "impact": "Low",
+    "previous": "56.5",
+    "title": "BusinessNZ Manufacturing Index",
+    "ts": 1794519000.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "b8d7f86a0ab97f17",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Williams Speaks",
+    "ts": 1794526200.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "0.4%",
+    "id": "79916744c609253a",
+    "impact": "Low",
+    "previous": "1.9%",
+    "title": "German WPI m/m",
+    "ts": 1794553200.0
+   },
+   {
+    "country": "CHF",
+    "forecast": "0.2%",
+    "id": "6ba9c853c792a84c",
+    "impact": "Low",
+    "previous": "0.3%",
+    "title": "PPI m/m",
+    "ts": 1794555000.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "0.4%",
+    "id": "882feea90e2d5ce9",
+    "impact": "Low",
+    "previous": "0.4%",
+    "title": "French Final CPI m/m",
+    "ts": 1794555900.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "1.85B",
+    "id": "ec3e4e9de81f8a0a",
+    "impact": "Low",
+    "previous": "1.77B",
+    "title": "Italian Trade Balance",
+    "ts": 1794560400.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "0.2%",
+    "id": "2d423c608ad0db0f",
+    "impact": "Low",
+    "previous": "0.1%",
+    "title": "Flash Employment Change q/q",
+    "ts": 1794564000.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "0.4%",
+    "id": "44082f3cfa08d356",
+    "impact": "Low",
+    "previous": "0.4%",
+    "title": "Flash GDP q/q",
+    "ts": 1794564000.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "-4.5B",
+    "id": "fbd54a6aa2cc20c3",
+    "impact": "Low",
+    "previous": "-6.8B",
+    "title": "Trade Balance",
+    "ts": 1794564000.0
+   },
+   {
+    "country": "CAD",
+    "forecast": "0.1%",
+    "id": "ba352f3d0c2c1c52",
+    "impact": "Low",
+    "previous": "1.5%",
+    "title": "Manufacturing Sales m/m",
+    "ts": 1794576600.0
+   },
+   {
+    "country": "CAD",
+    "forecast": "0.5%",
+    "id": "8012888bccc47b41",
+    "impact": "Low",
+    "previous": "-1.6%",
+    "title": "Wholesale Sales m/m",
+    "ts": 1794576600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "0.3%",
+    "id": "5f8e5d62470c7bd7",
+    "impact": "High",
+    "previous": "0.7%",
+    "title": "Core PPI m/m",
+    "ts": 1794576600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "0.4%",
+    "id": "05fbfc78ce813178",
+    "impact": "High",
+    "previous": "1.3%",
+    "title": "PPI m/m",
+    "ts": 1794576600.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "2bf5e869ae0ae768",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Collins Speaks",
+    "ts": 1794579000.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "b0d9e5b4ec935909",
+    "impact": "Low",
+    "previous": "-0.1%",
+    "title": "CB Leading Index m/m",
+    "ts": 1794580200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "a4307dd92c8829da",
+    "impact": "Low",
+    "previous": "77B",
+    "title": "Natural Gas Storage",
+    "ts": 1794583800.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "376cb8d1868414d3",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Bowman Speaks",
+    "ts": 1794585000.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "41d54826a32051f6",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Daly Speaks",
+    "ts": 1794589200.0
+   },
+   {
+    "country": "USD",
+    "forecast": "",
+    "id": "45aa8a33bec64876",
+    "impact": "Low",
+    "previous": "",
+    "title": "FOMC Member Jefferson Speaks",
+    "ts": 1794614400.0
+   },
+   {
+    "country": "GBP",
+    "forecast": "",
+    "id": "6a5e6b8b3155069e",
+    "impact": "Low",
+    "previous": "",
+    "title": "MPC Member Greene Speaks",
+    "ts": 1794654000.0
    }
   ],
-  "fetched": 1794115086.56586
+  "fetched": 1794121079.7310653
  },
  "seen": {
   "00047c4e29451b71": 1793992506.212948,
@@ -1070,7 +935,6 @@
   "04866c76bc765a17": 1793881855.644017,
   "04b58d31fe7376ac": 1793992506.212948,
   "06983e1ac46f0e9b": 1793906251.2980263,
-  "06d2de9392fccfc1": 1793860834.7886796,
   "074a8caf0053cfcd": 1793932435.1236215,
   "07aa9422d64b90ba": 1793992506.212948,
   "082dbe4b97d47062": 1794002409.6898713,
@@ -1167,7 +1031,6 @@
   "27f581c66b2c8b05": 1793868579.9457781,
   "2832ad85ee54a319": 1794031762.320041,
   "28d6942d7bdbbd33": 1793986237.1487746,
-  "297fa7e3f19a6fa4": 1793860834.7886796,
   "29c7414392600901": 1793886435.4906445,
   "2ac06292263d512a": 1793932435.1236215,
   "2ac3ac26149027ef": 1794082529.0120773,
@@ -1241,14 +1104,12 @@
   "4e5b8f7da8a58d1f": 1794063272.377494,
   "4f1eee1b657cb8f1": 1793896785.3204281,
   "4f4bbdb18f3e5808": 1793886435.4906445,
-  "50064b25ed8e100c": 1793860834.7886796,
   "5029a22705ca2257": 1793980612.5889597,
   "50efd81c77970536": 1794031762.320041,
   "5142bfde883a59fd": 1794115086.56586,
   "5165357c2d8aafb8": 1793892958.4976213,
   "520988098302e75b": 1794026090.731919,
   "52117b558dc0fc71": 1793912006.6268122,
-  "524ac641a78a6abf": 1793860834.7886796,
   "5256e16dd1a5d950": 1794020838.2833467,
   "52747849fbfacf00": 1793992506.212948,
   "5321531aa5bd0cf3": 1793919851.920393,
@@ -1325,7 +1186,6 @@
   "6bed340515475a23": 1794020838.2833467,
   "6bedb51b466c8614": 1793980612.5889597,
   "6c3ffba3eb87363e": 1793868579.9457781,
-  "6c6cfdcdf26dde71": 1793860834.7886796,
   "6d0156d7fd2db85a": 1793875343.496423,
   "6da6c73328515498": 1793906251.2980263,
   "6da8fc2c5379d42d": 1793917165.1753976,
@@ -1376,7 +1236,6 @@
   "81f90c239062580c": 1793942494.559646,
   "829ad249564ee6f0": 1793919851.920393,
   "82b196babf1d66da": 1793865356.837305,
-  "82e45d6563f40380": 1793860834.7886796,
   "82f3b14a86d7b777": 1793983317.0829277,
   "82ff28eeb5ad0e86": 1793886435.4906445,
   "83645b85b1f6bfa4": 1793881855.644017,
@@ -1439,7 +1298,6 @@
   "9aa2620ac8cc2452": 1793865356.837305,
   "9bdd24d4e1e34c76": 1793995189.687213,
   "9beecb3839e93012": 1793975266.5674376,
-  "9c5caa766419bf81": 1793860834.7886796,
   "9de9a4879dd72830": 1793919851.920393,
   "9ea1c9c793124b83": 1794058216.1259317,
   "a040d18deb186555": 1793954114.053395,
@@ -1453,13 +1311,11 @@
   "a1dddc02f8fc4b56": 1793922278.0753427,
   "a21770797ed4ca31": 1793865356.837305,
   "a2610cc895b806c5": 1793896785.3204281,
-  "a282d7f6a1451a2c": 1793860834.7886796,
   "a29a0c3af85df899": 1793889680.0382245,
   "a32cfcd7897155df": 1793922278.0753427,
   "a37130db5bd630e4": 1793950794.0690634,
   "a3d0a5c45d179a5b": 1793892958.4976213,
   "a3f8ec94039c81ad": 1793957390.7290633,
-  "a46fb8868db41b79": 1793860834.7886796,
   "a479c70a3253559b": 1794063272.377494,
   "a496072364773431": 1793892958.4976213,
   "a50bed37cfe45dd6": 1793967186.639152,
@@ -1469,7 +1325,6 @@
   "a5d4519daa9e9026": 1793946059.2574277,
   "a5e67bcccb287c65": 1794099499.4934452,
   "a64431022e8bfc91": 1794088575.0900133,
-  "a6d61c7082b5c015": 1793860834.7886796,
   "a75c2dbc1c07e4fb": 1793900242.986954,
   "a8028a0a97e907e0": 1793865356.837305,
   "a85c0c8c6e169c77": 1794067290.030796,
@@ -1512,7 +1367,6 @@
   "badea2a242fc937a": 1794075454.6033611,
   "bb84bc5971b02bd1": 1793977903.3484073,
   "bba0e977d94f9348": 1793995189.687213,
-  "bc990145b9d13bc0": 1793860834.7886796,
   "bd6a5959b49499a1": 1793917165.1753976,
   "bd8d99ca6a66c15e": 1793977903.3484073,
   "bd8e38b2e0969d31": 1794058216.1259317,
@@ -1524,7 +1378,6 @@
   "bf17bf5b0ce07f9e": 1793922278.0753427,
   "bf2cf1d32cabb1ee": 1793881855.644017,
   "bf5a8b1e631d97cd": 1793983317.0829277,
-  "bf75a6f3570a1136": 1793860834.7886796,
   "bfc9f06110e27ed9": 1793967186.639152,
   "bfcfcad1e1152865": 1793889680.0382245,
   "c002bd9b248bedb4": 1793902677.4401038,
@@ -1540,6 +1393,7 @@
   "c62ae1cc691adc30": 1793950794.0690634,
   "c67b34350a4b0970": 1793961024.2645476,
   "c694540ad91a4252": 1794117943.914534,
+  "c6966229861a27cd": 1794121079.7310653,
   "c8885286254b2af5": 1793878524.7024553,
   "c89f30c890da0abd": 1793989039.4047318,
   "c8df190a1fee4423": 1793942494.559646,
@@ -1562,7 +1416,6 @@
   "ceb8489b8c9113f0": 1794060944.5664434,
   "cee87477e8d65b89": 1793964285.3563173,
   "cf129fade219e4ac": 1793886435.4906445,
-  "cf5e5fa51bc601f1": 1793860834.7886796,
   "d0a06b891b32c60f": 1793875343.496423,
   "d18fca7a0b504b92": 1793995189.687213,
   "d1b9b1a769626253": 1793964285.3563173,
@@ -1608,7 +1461,6 @@
   "e62bbc7c5f2372fe": 1793906251.2980263,
   "e655251f7b067dfa": 1793868579.9457781,
   "e6d6afaa01e58962": 1793983317.0829277,
-  "e742cd1211c07e3e": 1793860834.7886796,
   "e755bc0fea3bd62f": 1794084738.1698813,
   "e7742ab8b74c98ca": 1793946059.2574277,
   "e7ad554497de2221": 1794058216.1259317,
@@ -1619,7 +1471,6 @@
   "eaf28799ed2262e5": 1793865356.837305,
   "eb4a2d6cf0eb6281": 1793881855.644017,
   "ebc5014e81845d31": 1793865356.837305,
-  "ec9d97577b8ada09": 1793860834.7886796,
   "eced09f3fbb26956": 1793865356.837305,
   "ee1343dea9d9d50f": 1793954114.053395,
   "ee770a0592be2d5e": 1794007034.8397427,
@@ -1638,6 +1489,7 @@
   "f28f0ce236551258": 1794004664.7163086,
   "f2e5a4e816ea64b4": 1793919851.920393,
   "f368986b252b30f6": 1794007034.8397427,
+  "f3719fecbf64b22b": 1794121079.7310653,
   "f3a33d1d7b61bb8b": 1794099499.4934452,
   "f3bfb6295b3efb2a": 1793986237.1487746,
   "f3d54326840fcf7c": 1794105618.4116693,
