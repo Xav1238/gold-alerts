@@ -198,7 +198,7 @@
    },
    {
     "country": "CNY",
-    "forecast": "859B",
+    "forecast": "855B",
     "id": "1175002d8d849191",
     "impact": "Low",
     "previous": "906B",
@@ -225,7 +225,7 @@
    },
    {
     "country": "JPY",
-    "forecast": "46.9",
+    "forecast": "47.1",
     "id": "75703a9270dac7b4",
     "impact": "Low",
     "previous": "47.0",
@@ -252,7 +252,7 @@
    },
    {
     "country": "CNY",
-    "forecast": "7.3%",
+    "forecast": "7.2%",
     "id": "36da01ba7d2c29f9",
     "impact": "Low",
     "previous": "7.2%",
@@ -279,7 +279,7 @@
    },
    {
     "country": "USD",
-    "forecast": "97.7",
+    "forecast": "98.0",
     "id": "cd65d300296bbc25",
     "impact": "Low",
     "previous": "97.9",
@@ -460,11 +460,11 @@
    {
     "country": "EUR",
     "forecast": "",
-    "id": "89f1e2c7ac862423",
+    "id": "9c1f6c25648a621b",
     "impact": "Low",
     "previous": "",
     "title": "German Buba President Nagel Speaks",
-    "ts": 1794385200.0
+    "ts": 1794384900.0
    },
    {
     "country": "EUR",
@@ -540,7 +540,7 @@
    },
    {
     "country": "GBP",
-    "forecast": "-32%",
+    "forecast": "-33%",
     "id": "bc24b948f2f5b0e7",
     "impact": "Low",
     "previous": "-32%",
@@ -612,7 +612,7 @@
    },
    {
     "country": "GBP",
-    "forecast": "-0.3%",
+    "forecast": "0.4%",
     "id": "bd295ff50b10a19f",
     "impact": "Low",
     "previous": "1.7%",
@@ -629,17 +629,8 @@
     "ts": 1794474000.0
    },
    {
-    "country": "EUR",
-    "forecast": "",
-    "id": "f6afa2bb7da9cf74",
-    "impact": "Low",
-    "previous": "",
-    "title": "EU Economic Forecasts",
-    "ts": 1794477600.0
-   },
-   {
     "country": "CAD",
-    "forecast": "-3.9%",
+    "forecast": "-4.0%",
     "id": "0914ad8994d591c7",
     "impact": "Low",
     "previous": "8.8%",
@@ -658,11 +649,11 @@
    {
     "country": "USD",
     "forecast": "",
-    "id": "097381a785a2c17f",
+    "id": "0b741ee8a3579d42",
     "impact": "Low",
     "previous": "",
     "title": "FOMC Member Hammack Speaks",
-    "ts": 1794492000.0
+    "ts": 1794490200.0
    },
    {
     "country": "USD",
@@ -703,11 +694,11 @@
    {
     "country": "USD",
     "forecast": "",
-    "id": "508c0c2d1d243eb4",
+    "id": "7b2d097d7a3488ce",
     "impact": "Low",
     "previous": "",
     "title": "FOMC Member Goolsbee Speaks",
-    "ts": 1794501000.0
+    "ts": 1794500100.0
    },
    {
     "country": "USD",
@@ -717,6 +708,15 @@
     "previous": "-0.9M",
     "title": "Crude Oil Inventories",
     "ts": 1794502800.0
+   },
+   {
+    "country": "EUR",
+    "forecast": "",
+    "id": "f7bbb9a55161771c",
+    "impact": "Low",
+    "previous": "",
+    "title": "German Buba President Nagel Speaks",
+    "ts": 1794504600.0
    },
    {
     "country": "USD",
@@ -917,6 +917,15 @@
     "ts": 1794585000.0
    },
    {
+    "country": "EUR",
+    "forecast": "",
+    "id": "21a427898ead48b3",
+    "impact": "Low",
+    "previous": "",
+    "title": "German Buba President Nagel Speaks",
+    "ts": 1794585600.0
+   },
+   {
     "country": "USD",
     "forecast": "",
     "id": "41d54826a32051f6",
@@ -944,7 +953,7 @@
     "ts": 1794654000.0
    }
   ],
-  "fetched": 1794255683.093225
+  "fetched": 1794261332.2435362
  },
  "seen": {
   "0034d62d724a3a2a": 1794248959.7973306,
@@ -1006,7 +1015,6 @@
   "19472f9de5593f96": 1794195360.9970949,
   "199a8df8b5d5105f": 1794007034.8397427,
   "1a838cbfb7f1a0d6": 1794084738.1698813,
-  "1bb1bdf69e1383a2": 1794000159.3115141,
   "1bb7827879b02e0e": 1794163765.8152711,
   "1be43e4d5e2f06d0": 1794206500.4092116,
   "1d2d4de3a830d09d": 1794038049.633465,
@@ -1088,7 +1096,7 @@
   "36c927dfe8479975": 1794078332.3313434,
   "390072c1c7a30f9b": 1794199160.0976255,
   "39873fcf5590e8a9": 1794202737.8339994,
-  "3991bb8d8a485795": 1794000159.3115141,
+  "39aec30e288f0eb8": 1794261332.2435362,
   "39f20452e1e6a427": 1794166014.4212806,
   "3a8775affb4e871b": 1794221849.4638963,
   "3c1773dee5306e69": 1794224898.6495306,
@@ -1194,6 +1202,7 @@
   "6da8fc2c5379d42d": 1794178588.237515,
   "6db7db6bec178651": 1794069448.9650652,
   "6de21df41883b823": 1794038049.633465,
+  "6e1dc999ba7ddf12": 1794261332.2435362,
   "6e3780f22e993648": 1794248959.7973306,
   "6e7fb5d23b6d1d75": 1794117943.914534,
   "6ee2f4ddea510b09": 1794004664.7163086,
@@ -1269,7 +1278,6 @@
   "89ed15d61d7aeef4": 1794232607.7068686,
   "8ab4066b4be3c8cc": 1794242757.7929637,
   "8ac2bcf074bf15f6": 1794206500.4092116,
-  "8c51a8484e25a534": 1794000159.3115141,
   "8cc4e950ded17f9b": 1794206500.4092116,
   "8ce2e2d6aa99eef0": 1794242757.7929637,
   "8d093ad7d7a1303d": 1794228224.7655687,
@@ -1312,6 +1320,7 @@
   "9a1d37a214551cd7": 1794105618.4116693,
   "9a49b1d49bf06a38": 1794199160.0976255,
   "9a63400e334fafdc": 1794144548.775467,
+  "9ba97b94afda495f": 1794261332.2435362,
   "9bdd24d4e1e34c76": 1794258744.4841428,
   "9beecb3839e93012": 1794238984.2288115,
   "9c5caa766419bf81": 1794124387.281522,
@@ -1450,7 +1459,6 @@
   "d9b4949b5ff0f197": 1794202737.8339994,
   "d9c7924ced3932b3": 1794206500.4092116,
   "dad286e3da2a8b17": 1794218664.513466,
-  "db84a08cd8c07710": 1794000159.3115141,
   "dbf447bcc9bef78a": 1794124387.281522,
   "dc0717edead87647": 1794228224.7655687,
   "dc0a2b298ffa0f14": 1794235652.9358084,
